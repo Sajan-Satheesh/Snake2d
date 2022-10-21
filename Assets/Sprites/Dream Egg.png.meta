@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: 03e0050d24c62874c9700924ccc39a90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8487187412747923412
+    second: Dream Egg_0
+  - first:
+      213: 5499319940108708606
+    second: Dream Egg_1
+  - first:
+      213: 533732410489985889
+    second: Dream Egg_2
+  - first:
+      213: 5505094008270376427
+    second: Dream Egg_3
+  - first:
+      213: 8402205361677649410
+    second: Dream Egg_4
+  - first:
+      213: 8208728476784883321
+    second: Dream Egg_5
+  - first:
+      213: -437362940129647439
+    second: Dream Egg_6
+  - first:
+      213: 8059806156249096019
+    second: Dream Egg_7
+  - first:
+      213: 1088699380815938208
+    second: Dream Egg_8
+  - first:
+      213: -8858927461961578117
+    second: Dream Egg_9
+  - first:
+      213: 4437750959615493287
+    second: Dream Egg_10
+  - first:
+      213: -2788776847946597188
+    second: Dream Egg_11
+  - first:
+      213: -5802801949104335865
+    second: Dream Egg_12
+  - first:
+      213: -4027111083445825796
+    second: Dream Egg_13
+  - first:
+      213: -871516378130582683
+    second: Dream Egg_14
+  - first:
+      213: 3883777881432995179
+    second: Dream Egg_15
+  - first:
+      213: 4471531750889955976
+    second: Dream Egg_16
+  - first:
+      213: 6720442056491146350
+    second: Dream Egg_17
+  - first:
+      213: -5096983419707169619
+    second: Dream Egg_18
+  - first:
+      213: -4741128261099767956
+    second: Dream Egg_19
+  - first:
+      213: -3380445749948833831
+    second: Dream Egg_20
+  - first:
+      213: -5737465781325939577
+    second: Dream Egg_21
+  - first:
+      213: 5809087840493043061
+    second: Dream Egg_22
+  - first:
+      213: 6767797339495630662
+    second: Dream Egg_23
+  - first:
+      213: -3927620381918433846
+    second: Dream Egg_24
+  - first:
+      213: 8569949100015029927
+    second: Dream Egg_25
+  - first:
+      213: 8166108511452091548
+    second: Dream Egg_26
+  - first:
+      213: 1631828506480304418
+    second: Dream Egg_27
+  - first:
+      213: 2194884799979397182
+    second: Dream Egg_28
+  - first:
+      213: -5622264086205005632
+    second: Dream Egg_29
+  - first:
+      213: -304737399663463356
+    second: Dream Egg_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dream Egg_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -182.5, y: 75.5}
+        - {x: -182.5, y: 98.5}
+        - {x: -156.5, y: 98.5}
+        - {x: -150.5, y: 64.5}
+      - - {x: -80.5, y: 88.5}
+        - {x: -80.5, y: 88.5}
+        - {x: -78.5, y: 88.5}
+        - {x: -78.5, y: 88.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c205ef0e304773a80800000000000000
+      internalID: -8487187412747923412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efae6605952815c40800000000000000
+      internalID: 5499319940108708606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b5e5cacc2386700800000000000000
+      internalID: 533732410489985889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed461255d5066c40800000000000000
+      internalID: 5505094008270376427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206cda87241aa9470800000000000000
+      internalID: 8402205361677649410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9767564de034be170800000000000000
+      internalID: 8208728476784883321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4e6a329bc2ee9f0800000000000000
+      internalID: -437362940129647439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fdbb51ffe2adf60800000000000000
+      internalID: 8059806156249096019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2c8b49156db1f00800000000000000
+      internalID: 1088699380815938208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 168
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79c3d2f864ce0580800000000000000
+      internalID: -8858927461961578117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 131
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4c78d4cfe069d30800000000000000
+      internalID: 4437750959615493287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 131
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc3f4c7b364c49d0800000000000000
+      internalID: -2788776847946597188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 131
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70411b13f5e487fa0800000000000000
+      internalID: -5802801949104335865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 131
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe4c206ec3dc18c0800000000000000
+      internalID: -4027111083445825796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 94
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5637799b870c7e3f0800000000000000
+      internalID: -871516378130582683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 94
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b653551f763f5e530800000000000000
+      internalID: 3883777881432995179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 80
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8822dadaf621e0e30800000000000000
+      internalID: 4471531750889955976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c10c6a17ec34d50800000000000000
+      internalID: 6720442056491146350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da46c42b590e349b0800000000000000
+      internalID: -5096983419707169619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67359257f0243eb0800000000000000
+      internalID: -4741128261099767956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df12d3308e3611d0800000000000000
+      internalID: -3380445749948833831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cbb11354d6060b0800000000000000
+      internalID: -5737465781325939577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_22
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57df0a1fc960e9050800000000000000
+      internalID: 5809087840493043061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647887ca2db0ced50800000000000000
+      internalID: 6767797339495630662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdea23721a4e79c0800000000000000
+      internalID: -3927620381918433846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_25
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae03990d439ee670800000000000000
+      internalID: 8569949100015029927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_26
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 44
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94556edc68d35170800000000000000
+      internalID: 8166108511452091548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2216d1f716b65a610800000000000000
+      internalID: 1631828506480304418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_28
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 7
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e302da9b81cc57e10800000000000000
+      internalID: 2194884799979397182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 7
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c080540a94b9f1b0800000000000000
+      internalID: -5622264086205005632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dream Egg_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 7
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444784713fa55cbf0800000000000000
+      internalID: -304737399663463356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

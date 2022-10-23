@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,10 +5,10 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class PlayGame : MonoBehaviour
 {
-    Button play;
+    private Button play;
     private void Awake()
     {
-        play = this.GetComponent<Button>();
+        play = GetComponent<Button>();
         play.onClick.AddListener(PlaysGame);
     }
 

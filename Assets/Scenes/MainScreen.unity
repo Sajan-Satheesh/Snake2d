@@ -1995,7 +1995,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Increases the speed of the snake.
+  m_Text: Increases the speed of the snake and the snake can run in an infinite loop
+    surpassing the boundaries.
 --- !u!222 &927810716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4150,7 +4151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: POWER UPS
+  m_Text: POWER UPS (5-15 seconds)
 --- !u!222 &1873148240
 CanvasRenderer:
   m_ObjectHideFlags: 0

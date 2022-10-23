@@ -1,10 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UiUpdate : MonoBehaviour
+public class UImanager : MonoBehaviour
 {
     public Text Score;
     public Text CountDown;

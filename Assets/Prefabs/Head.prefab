@@ -118,16 +118,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2662d6e5546991a4ab1eb8ccb3804830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSpeed: 0.2
+  defaultSpeed: 5
+  speed: 0
   objType: 0
-  GameOverScreen: {fileID: 0}
   SegmentPosition: []
-  body: {fileID: 8308980679462771239, guid: 2bb98bc0924e53745ba4724c26873ad0, type: 3}
-  defaultBodyLength: 3
+  bodyPosition: {fileID: 8308980679462771239, guid: 2bb98bc0924e53745ba4724c26873ad0, type: 3}
+  defaultBodyLength: 4
   UpButton: 273
   DownButton: 274
   LeftButton: 276
   RightButton: 275
+  gameUI: {fileID: 0}
   ate: 0
   powerup: {fileID: 0}
 --- !u!58 &5447898933610793157

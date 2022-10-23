@@ -14,10 +14,10 @@ public class ModesGame : MonoBehaviour
     public Toggle BoundedOption;
     private void Awake()
     {
+        Initialize();
         GoBack();
         Modes = GetComponent<Button>();
         Modes.onClick.AddListener(ModesWindow);
-        Initialize();
         Back.onClick.AddListener(GoBack);
     }
 
@@ -33,8 +33,8 @@ public class ModesGame : MonoBehaviour
 
     private void Update()
     {
-        multiplayerToggle();
-        mapToggle();
+        MultiplayerToggle();
+        MapToggle();
     }
 
     void Initialize()
@@ -48,7 +48,7 @@ public class ModesGame : MonoBehaviour
             BoundedOption.isOn = true;
         }
     }
-    void multiplayerToggle()
+    void MultiplayerToggle()
     {
         if(MultiplayerOption.isOn == true)
         {
@@ -60,7 +60,7 @@ public class ModesGame : MonoBehaviour
         }
     }
 
-    void mapToggle()
+    void MapToggle()
     {
         if (BoundedOption.isOn == true)
         {

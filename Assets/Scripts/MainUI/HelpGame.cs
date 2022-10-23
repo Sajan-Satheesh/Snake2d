@@ -1,14 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Button))]
 public class HelpGame : MonoBehaviour
 {
-    Button help;
+    private Button help;
     [SerializeField] Button back;
     [SerializeField] GameObject helpPanel;
     private void Awake()

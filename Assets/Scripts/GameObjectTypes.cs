@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public enum ObjType
 {
     player,
@@ -9,5 +5,5 @@ public enum ObjType
     infiniteBoundary,
     collectible,
     destructible,
-    body
+    playerBody
 }

@@ -129,7 +129,7 @@ TextureImporter:
       213: 6680209479718724182
     second: Egg_41
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -150,6 +150,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -169,7 +170,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -188,6 +189,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -215,6 +217,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1128,6 +1154,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Egg_28: 3425240267793839599
+      Egg_7: -4429374962262919655
+      Egg_15: 6289378683615589089
+      Egg_26: 2217175163271623850
+      Egg_6: -8728171665635509801
+      Egg_9: -1264786721367203003
+      Egg_16: 9045875998172835551
+      Egg_17: -491408708478117423
+      Egg_3: 2599295178660905587
+      Egg_4: -2566293651397995864
+      Egg_37: 4698766608602977159
+      Egg_11: 7713640012596698577
+      Egg_1: -3665803642334570777
+      Egg_14: -5020174620848184435
+      Egg_24: 6471754431163047624
+      Egg_18: 1093867271067563454
+      Egg_12: -6277458270671425573
+      Egg_2: -7578226498497253333
+      Egg_8: -2367700842318579561
+      Egg_27: -8797707237977070174
+      Egg_22: 1719048709179577700
+      Egg_35: 8358161268437046229
+      Egg_36: -6572858138568555080
+      Egg_39: 1231151324213488679
+      Egg_33: 6334482417094395685
+      Egg_0: 4646649027328027380
+      Egg_5: 8500137045646508858
+      Egg_40: -444022918705638887
+      Egg_32: 4782848509240944197
+      Egg_20: -8246868575110873365
+      Egg_13: 8632876256906880232
+      Egg_25: -7145321775455196144
+      Egg_21: -9183317403106430837
+      Egg_10: 8663761377601679006
+      Egg_38: -2799089198362230151
+      Egg_31: 3494418997715307490
+      Egg_19: -5031056707486649167
+      Egg_23: 1298439593716375588
+      Egg_29: -15741455543876981
+      Egg_34: -6965350589242915957
+      Egg_30: -3365296976319055713
+      Egg_41: 6680209479718724182
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

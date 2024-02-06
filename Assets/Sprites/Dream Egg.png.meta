@@ -96,7 +96,7 @@ TextureImporter:
       213: -304737399663463356
     second: Dream Egg_30
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -117,6 +117,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -155,6 +156,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -182,6 +184,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -864,6 +890,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Dream Egg_13: -4027111083445825796
+      Dream Egg_5: 8208728476784883321
+      Dream Egg_30: -304737399663463356
+      Dream Egg_18: -5096983419707169619
+      Dream Egg_23: 6767797339495630662
+      Dream Egg_27: 1631828506480304418
+      Dream Egg_1: 5499319940108708606
+      Dream Egg_6: -437362940129647439
+      Dream Egg_11: -2788776847946597188
+      Dream Egg_8: 1088699380815938208
+      Dream Egg_9: -8858927461961578117
+      Dream Egg_19: -4741128261099767956
+      Dream Egg_26: 8166108511452091548
+      Dream Egg_2: 533732410489985889
+      Dream Egg_28: 2194884799979397182
+      Dream Egg_10: 4437750959615493287
+      Dream Egg_15: 3883777881432995179
+      Dream Egg_17: 6720442056491146350
+      Dream Egg_12: -5802801949104335865
+      Dream Egg_24: -3927620381918433846
+      Dream Egg_21: -5737465781325939577
+      Dream Egg_22: 5809087840493043061
+      Dream Egg_4: 8402205361677649410
+      Dream Egg_20: -3380445749948833831
+      Dream Egg_25: 8569949100015029927
+      Dream Egg_16: 4471531750889955976
+      Dream Egg_0: -8487187412747923412
+      Dream Egg_29: -5622264086205005632
+      Dream Egg_14: -871516378130582683
+      Dream Egg_3: 5505094008270376427
+      Dream Egg_7: 8059806156249096019
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

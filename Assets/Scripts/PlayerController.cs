@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    #region PlayerCore
+    #region KeyVariables
     [SerializeField] private float defaultSpeed;
     private float speed;
     private float TimeUpdate;
@@ -19,9 +21,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private List<Transform> SegmentPosition;
     [SerializeField] private Transform bodyPosition;
     [SerializeField] private int defaultBodyLength;
+    [SerializeField] private Vector3 forwardDirection;
     
     public UImanager gameUI;
-    
+    #endregion
 
     private enum Directions
     {
@@ -50,6 +53,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        forwardDirection = transform.up;
         GetDirection();
         TimelyUpdate(speed);
         CoolDown();
@@ -88,18 +92,22 @@ public class PlayerController : MonoBehaviour
         PlayerPosition = transform.position;
         if (direction == Directions.up)
         {
+            transform.up = Vector3.up;
             transform.position = PlayerPosition + Vector2.up;
         }
         if (direction == Directions.down)
         {
+            transform.up = Vector3.down;
             transform.position = PlayerPosition + Vector2.down;
         }
         if (direction == Directions.left)
         {
+            transform.up = Vector3.left;
             transform.position = PlayerPosition + Vector2.left;
         }
         if (direction == Directions.right)
         {
+            transform.up = Vector3.right;
             transform.position = PlayerPosition + Vector2.right;
         }
     }
@@ -143,19 +151,19 @@ public class PlayerController : MonoBehaviour
     private void GetDirection()
     {
 
-        if (Input.GetKey(UpButton) && direction != Directions.down)
+        if (Input.GetKey(UpButton) && !movingInFwd(Vector3.down))
         {
             direction = Directions.up;
         }
-        if (Input.GetKey(DownButton) && direction != Directions.up)
+        if (Input.GetKey(DownButton) && !movingInFwd(Vector3.up))
         {
             direction = Directions.down;
         }
-        if (Input.GetKey(LeftButton) && direction != Directions.right)
+        if (Input.GetKey(LeftButton) && !movingInFwd(Vector3.right))
         {
             direction = Directions.left;
         }
-        if (Input.GetKey(RightButton) && direction != Directions.left)
+        if (Input.GetKey(RightButton) && !movingInFwd(Vector3.left))
         {
             direction = Directions.right;
         }
@@ -167,6 +175,12 @@ public class PlayerController : MonoBehaviour
         {
             speed = defaultSpeed;
         }
+    }
+
+    bool movingInFwd(Vector3 currentDir)
+    {
+        Vector3 forwardDir = transform.up;
+        return forwardDir == currentDir;
     }
 
     private void CheckBoundary()
@@ -196,13 +210,8 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3Int(objX, objY, 0);
         }
     }
-
-
-
-
-
-
-
+    #endregion
+    #region PowerUps&Collectibles
     public PowerUpSpawn powerup;
     int PowerActiveTime = 10;
     int currentTime;
@@ -311,5 +320,6 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
+    #endregion
 }
+

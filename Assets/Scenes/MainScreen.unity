@@ -779,7 +779,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4906078555707283279, guid: 11c79cbd6a3547148bfb880445080b20, type: 3}
+    - {fileID: 4906078555707283278, guid: 11c79cbd6a3547148bfb880445080b20, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 11c79cbd6a3547148bfb880445080b20, type: 3}
 --- !u!4 &254386682 stripped
 Transform:
@@ -993,7 +995,7 @@ GameObject:
   - component: {fileID: 332356725}
   - component: {fileID: 332356726}
   m_Layer: 5
-  m_Name: Circle
+  m_Name: sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2442,7 +2444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.987876, b: 0.759434, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2585,18 +2587,6 @@ PrefabInstance:
     - target: {fileID: 6861178361048593949, guid: da64a16cd2fa2cf42a0c81f8671eea21, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861178361048593949, guid: da64a16cd2fa2cf42a0c81f8671eea21, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861178361048593949, guid: da64a16cd2fa2cf42a0c81f8671eea21, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6861178361048593949, guid: da64a16cd2fa2cf42a0c81f8671eea21, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6861178361048593949, guid: da64a16cd2fa2cf42a0c81f8671eea21, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3214,7 +3204,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!224 &1340753822
 RectTransform:
@@ -4356,14 +4346,6 @@ PrefabInstance:
     - target: {fileID: 5275750188855380191, guid: ad607840a280d4a459e74391f6ead960, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5275750188855380191, guid: ad607840a280d4a459e74391f6ead960, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5275750188855380191, guid: ad607840a280d4a459e74391f6ead960, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5275750188855380191, guid: ad607840a280d4a459e74391f6ead960, type: 3}
       propertyPath: m_LocalPosition.x

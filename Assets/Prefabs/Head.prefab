@@ -30,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -45,6 +46,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -75,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: 1d60d646ff337a94fb7f251d543bd176, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -119,17 +121,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSpeed: 5
-  speed: 0
   objType: 0
-  SegmentPosition: []
-  bodyPosition: {fileID: 8308980679462771239, guid: 2bb98bc0924e53745ba4724c26873ad0, type: 3}
-  defaultBodyLength: 4
   UpButton: 273
   DownButton: 274
   LeftButton: 276
   RightButton: 275
+  SegmentPosition: []
+  bodyPosition: {fileID: 8308980679462771239, guid: 2bb98bc0924e53745ba4724c26873ad0, type: 3}
+  defaultBodyLength: 4
+  forwardDirection: {x: 0, y: 0, z: 0}
   gameUI: {fileID: 0}
-  ate: 0
   powerup: {fileID: 0}
 --- !u!58 &5447898933610793157
 CircleCollider2D:
